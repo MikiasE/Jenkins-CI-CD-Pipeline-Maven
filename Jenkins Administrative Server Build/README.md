@@ -57,3 +57,4 @@ vim /etc/apache2/sites-available/jenkins.conf
 a2ensite jenkins
 service apache2 reload
 ```
+*now the application can run with the public DNS*
