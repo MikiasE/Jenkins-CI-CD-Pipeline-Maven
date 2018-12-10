@@ -10,4 +10,8 @@ Project summary can be found here: www.mikiasemanuel.com/jenkins-ci-cd-pipeline-
 
 ## Prerequisites:
 
-Jenkins Master Server Build is outlined [here](https://github.com/MikiasE/Automating-A-WebApp-Build-With-Terraform-and-Cloudformation/tree/master/TF_WebApp_Test).
+Jenkins Administrative Server Build is outlined [here](https://github.com/MikiasE/Automating-A-WebApp-Build-With-Terraform-and-Cloudformation/tree/master/TF_WebApp_Test).
+
+Install Recommended Jenkins Plugins.
+Install "Maven Invoker" Jenkins Plugin.
+Specify JDK and Maven Path in Jenkins Global Tool Configuration.
