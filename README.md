@@ -9,6 +9,5 @@ This project demonstrates the process to configure a Jenkins continuous integrat
 Project summary can be found here: www.mikiasemanuel.com/jenkins-ci-cd-pipeline-maven
 
 ## Prerequisites:
-```
-Project in progress.
-```
+
+Jenkins Master Server Build is outlined [here](https://github.com/MikiasE/Automating-A-WebApp-Build-With-Terraform-and-Cloudformation/tree/master/TF_WebApp_Test).
