@@ -31,6 +31,13 @@ apt-get install language-pack-en -y
 ### Set Java Environmental Variables
 ```
 apt-get install oracle-java8-set-default
+vi /etc/profile
+JAVA_HOME=/usr/lib/jvm/java-8-oracle
+export JAVA_HOME
+PATH=$PATH:$JAVA_HOME
+export PATH
+[ESC]:wq
+source /etc/profile
 ```
 ### Install Jenkins
 ```
