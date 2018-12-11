@@ -10,7 +10,9 @@ Project summary can be found here: www.mikiasemanuel.com/jenkins-ci-cd-pipeline-
 
 ## Prerequisites:
 
-Jenkins Administrative Server Build is outlined [here](https://github.com/MikiasE/Automating-A-WebApp-Build-With-Terraform-and-Cloudformation/tree/master/TF_WebApp_Test).
+Jenkins Administrative Server Build is outlined [here](https://github.com/MikiasE/Jenkins-CI-CD-Pipeline-Maven/tree/master/Jenkins%20Administrative%20Server%20Build).
+
+Tomcat Web Application Server Build is outlined [here](https://github.com/MikiasE/Jenkins-CI-CD-Pipeline-Maven/tree/master/Tomcat%20Web%20Server%20Build).
 
 Install Recommended Jenkins Plugins.
 
