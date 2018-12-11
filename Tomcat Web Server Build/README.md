@@ -28,9 +28,9 @@ cd /opt/apache-tomcat-8.5.35/conf/
 vi server.xml
 
 # Change connector port setting to "8090" ( <Connector port="8090" protocol="HTTP/1.1")
-cd /opt/apache-tomcat-8.5.35/bin/
 
 # Restart service
+cd /opt/apache-tomcat-8.5.35/bin/
 ./shudown.sh
 ./startup.sh
 ```
@@ -41,14 +41,14 @@ vi context.xml
 
 # comment out line: <!-- <Valve className="org.apache.catalina.valves.RemoteAddrValve" allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" /> -->
 [ESC]:wq 
+
+# same process as last line
 cd /opt/apache-tomcat-8.5.35/webapps/manager/META-INF
 vi context.xml
-
-# same process at last line
 [ESC]:wq
-cd /opt/apache-tomcat-8.5.35/bin/
 
 # Restart service
+cd /opt/apache-tomcat-8.5.35/bin/
 ./shudown.sh
 ./startup.sh
 ```
@@ -66,9 +66,9 @@ vi tomcat-users.xml
   <user username="tomcat" password="s3cret" roles="manager-gui"/>
 </tomcat-users>
 [ESC]:wq
-cd /opt/apache-tomcat-8.5.35/bin/
 
 # Restart service
+cd /opt/apache-tomcat-8.5.35/bin/
 ./shudown.sh
 ./startup.sh
 ```
