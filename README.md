@@ -1,8 +1,8 @@
 # Jenkins-CI-CD-Pipeline-Maven
 
-Included Technologies: EC2, Maven, Jenkins
+Included Technologies: Apache2, Git, Maven, Jenkins, Tomcat
 
-Languages: Java
+Languages: HTML, Java
 
 This project demonstrates the process to configure a Jenkins continuous integration server on Amazon EC2. Once configured, Jenkins will be set up to build a Java projet with Maven, pulling the project from GitHub automatically, each time a change is pushed to a GitHub repository. 
 
