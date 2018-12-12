@@ -16,6 +16,6 @@ Tomcat Web Application Server Build is outlined [here](https://github.com/Mikias
 
 Install Recommended Jenkins Plugins.
 
-Install "Maven Invoker" Jenkins Plugin.
+Install "Maven Invoker and Deploy to Container" Jenkins Plugin.
 
 Specify JDK and Maven Path in Jenkins Global Tool Configuration.
