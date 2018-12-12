@@ -18,4 +18,6 @@ Install Recommended Jenkins Plugins.
 
 Install "Maven Invoker and Deploy to Container" Jenkins Plugin.
 
-Specify JDK and Maven Path in Jenkins Global Tool Configuration.
+Specify JDK, Maven, and Git Path in Jenkins Global Tool Configuration.
+
+Configure Global Credentials based on Tomcat defined roles (I created a user with a "manager-script" role to allow for deployment).
